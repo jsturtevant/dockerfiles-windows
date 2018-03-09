@@ -1,0 +1,1 @@
+Note had [issue](https://github.com/moby/moby/issues/32838#issuecomment-356005845) when building with 1709 servercore for the installer image in the 1709 docker file so used the non 1709 and copied files.
