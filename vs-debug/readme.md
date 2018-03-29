@@ -9,7 +9,7 @@ docker run -it -v C:\temp\debugger:"C:\debugger" vs-debug
 #start your other container with volume and debugger port
 docker run -p 8081:80 -p 4022:4022 -v C:\temp\debugger:"C:\debuger" -n debugcontainer whoami-iis:debug
 
-# Start the debugger
+# Start the debugger (you could do this more securely)
 docker exec -it debugcontainer c:\debuger\msvsmon.exe /nostatus /silent /noauth /anyuser /nosecuritywarn
 ```
 
