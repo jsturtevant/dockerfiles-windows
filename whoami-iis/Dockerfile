@@ -18,4 +18,3 @@ FROM microsoft/aspnet:4.7.1-windowsservercore-1709
 
 WORKDIR /inetpub/wwwroot
 COPY --from=build-agent C:\out\_PublishedWebsites\whoami-iis .
-
