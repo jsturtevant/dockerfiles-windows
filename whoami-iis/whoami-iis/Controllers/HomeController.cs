@@ -12,6 +12,9 @@ namespace whoami_iis.Controllers
         public ActionResult Index()
         {
             ViewBag.MachineName = HttpContext.Server.MachineName;
+            ViewBag.HostName = Request.Url.Host;
+            ViewBag.DnsHostName = Dns.GetHostName();
+            ViewBag.EnvHostName = System.Environment.MachineName;
             return View();
         }
     }
