@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "whoami-iis", "whoami-iis\whoami-iis.csproj", "{EC129A56-29C2-4FB4-99B7-E1E281B02DE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "whoami-aspnet", "whoami-aspnet\whoami-aspnet.csproj", "{EC129A56-29C2-4FB4-99B7-E1E281B02DE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

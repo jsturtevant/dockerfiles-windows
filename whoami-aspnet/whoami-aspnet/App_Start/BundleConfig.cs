@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
-namespace whoami_iis
+namespace whoami_aspnet
 {
     public class BundleConfig
     {

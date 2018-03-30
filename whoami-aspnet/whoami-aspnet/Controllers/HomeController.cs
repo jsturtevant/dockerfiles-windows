@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Web;
+﻿using System.Net;
 using System.Web.Mvc;
 
-namespace whoami_iis.Controllers
+namespace whoami_aspnet.Controllers
 {
     public class HomeController : Controller
     {

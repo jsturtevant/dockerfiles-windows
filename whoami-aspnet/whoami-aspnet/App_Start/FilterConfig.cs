@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
-namespace whoami_iis
+namespace whoami_aspnet
 {
     public class FilterConfig
     {
